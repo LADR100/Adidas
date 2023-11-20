@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000; 
+    color: #ffffff; 
+    font-family: 'Merriweather', sans-serif; 
+}
+
+.navbar {
+    background-color: #333333 !important; 
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dddddd !important; 
+}
+
+.hero-section {
+    background: #444444; 
+    padding: 40px 0;
+    color: #ffffff; 
+}
+
+.content-section {
+    padding: 20px 0;
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+footer {
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #ffffff; 
+}
+
+.btn-primary {
+    background-color: #555555; 
+    border-color: #555555;
+}
+
+.btn-primary:hover {
+    background-color: #666666; 
+    border-color: #666666;
+}
+
+#descripcion p, #historia p, #escision p, #proveedor p {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center; 
+}
+
+.image-container img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 50%; 
+    height: auto; 
+}
+
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #ffffff; 
+}
+
+.social-icons a:hover, footer .social-icons a:focus {
+    text-decoration: none;
+    color: #dddddd; 
+}
+
+footer p {
+    margin-bottom: 0.5rem; 
+}
+
+footer .social-icons {
+    margin-top: 0.5rem; 
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 24px; 
+}
+
+
+footer p:last-of-type {
+    margin-bottom: 0; 
+}
+
+
+#contactos input[type="text"],
+#contactos input[type="email"],
+#contactos textarea {
+    width: 35%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+}
+
+
+#contactos textarea {
+    height: 150px; 
+}
+
+
+#contactos input[type="submit"], #contactos button {
+    background-color: #444; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 6px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+#contactos input[type="submit"]:hover, #contactos button:hover {
+    background-color: #555; 
+}
+
+
+
